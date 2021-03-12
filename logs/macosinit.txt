@@ -1,0 +1,104 @@
+Reading application name from package.json…
+Reading react-native version from node_modules…
+Reading react-native-macos version from node_modules…
+Latest matching version of react-native-macos for react-native@0.63.4 is react-native-macos@0.63.23.
+Installing react-native-macos@^0.63.0-0…
+yarn add v1.22.10
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ react-native-macos@0.63.23
+info All dependencies
+└─ react-native-macos@0.63.23
+Done in 4.61s.
+react-native-macos@^0.63.0-0 successfully installed!
+yarn install v1.22.10
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.43s.
+new macos/Podfile
+new macos/.gitignore
+new macos/abode-iOS/AppDelegate.h
+new macos/abode-iOS/AppDelegate.m
+new macos/abode-iOS/Base.lproj/LaunchScreen.xib
+new macos/abode-iOS/Images.xcassets/AppIcon.appiconset/Contents.json
+new macos/abode-iOS/Images.xcassets/Contents.json
+new macos/abode-iOS/Info.plist
+new macos/abode-iOS/main.m
+new macos/abode-macOS/AppDelegate.h
+new macos/abode-macOS/AppDelegate.m
+new macos/abode-macOS/Assets.xcassets/AppIcon.appiconset/Contents.json
+new macos/abode-macOS/Assets.xcassets/Contents.json
+new macos/abode-macOS/Base.lproj/Main.storyboard
+new macos/abode-macOS/abode.entitlements
+new macos/abode-macOS/Info.plist
+new macos/abode-macOS/ViewController.h
+new macos/abode-macOS/ViewController.m
+new macos/abode-macOS/main.m
+new macos/abode.xcodeproj/project.pbxproj
+new macos/abode.xcodeproj/xcshareddata/xcschemes/abode-iOS.xcscheme
+new macos/abode.xcodeproj/xcshareddata/xcschemes/abode-macOS.xcscheme
+Scanning for pods...
+1.10.0
+> pod install
+Analyzing dependencies
+Fetching podspec for `DoubleConversion` from `../node_modules/react-native-macos/third-party-podspecs/DoubleConversion.podspec`
+Fetching podspec for `RCT-Folly` from `../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec`
+Fetching podspec for `boost-for-react-native` from `../node_modules/react-native-macos/third-party-podspecs/boost-for-react-native.podspec`
+Fetching podspec for `glog` from `../node_modules/react-native-macos/third-party-podspecs/glog.podspec`
+Downloading dependencies
+Installing CocoaAsyncSocket (7.6.4)
+Installing CocoaLibEvent (1.0.0)
+Installing DoubleConversion (1.1.6)
+Installing FBLazyVector (0.63.23)
+Installing FBReactNativeSpec (0.63.23)
+Installing Flipper (0.54.0)
+Installing Flipper-DoubleConversion (1.1.7)
+Installing Flipper-Folly (2.3.0)
+Installing Flipper-Glog (0.3.6)
+Installing Flipper-PeerTalk (0.0.4)
+Installing Flipper-RSocket (1.1.0)
+Installing FlipperKit (0.54.0)
+Installing OpenSSL-Universal (1.0.2.20)
+Installing RCT-Folly (2020.01.13.00)
+Installing RCTRequired (0.63.23)
+Installing RCTTypeSafety (0.63.23)
+Installing React (0.63.23)
+Installing React-Core (0.63.23)
+Installing React-CoreModules (0.63.23)
+Installing React-RCTActionSheet (0.63.23)
+Installing React-RCTAnimation (0.63.23)
+Installing React-RCTBlob (0.63.23)
+Installing React-RCTImage (0.63.23)
+Installing React-RCTLinking (0.63.23)
+Installing React-RCTNetwork (0.63.23)
+Installing React-RCTSettings (0.63.23)
+Installing React-RCTText (0.63.23)
+Installing React-RCTVibration (0.63.23)
+Installing React-callinvoker (0.63.23)
+Installing React-cxxreact (0.63.23)
+Installing React-jsi (0.63.23)
+Installing React-jsiexecutor (0.63.23)
+Installing React-jsinspector (0.63.23)
+Installing ReactCommon (0.63.23)
+Installing Yoga (1.14.0)
+Installing YogaKit (1.18.1)
+Installing boost-for-react-native (1.63.0)
+Installing glog (0.3.5)
+Generating Pods project
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `abode.xcworkspace` for this project from now on.
+Pod installation complete! There are 48 dependencies from the Podfile and 38 total pods installed.
+
+  Run instructions for macOS:
+    • npx react-native run-macos
+    - or -
+    • Open macos/abode.xcworkspace in Xcode or run "xed -b macos"
+    • yarn start:macos
+    • Hit the Run button
+
